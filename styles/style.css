@@ -285,10 +285,27 @@ nav ul li a:active{
     padding: 10px 15px;
 }
 
-.project-description{
-    display: inline-block;
-    width: 65%;
+.project-description--horizontal {
+    display: block;
+    width: 100%;
 }
+.project-description--vertical {
+    width: 65%;
+    display: inline-block;
+}
+
+.gif--horizontal {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+.gif--vertical {
+    max-width: 100%;
+    height: auto;
+}
+
 
 .ion-link{
     font-size: 250%;
