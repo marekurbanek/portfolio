@@ -21,22 +21,6 @@
         font-size: 85%;
     }
 
-    .project-photo{
-        padding: 0 30px;
-        margin: 0;
-        display: inline-block;
-        width: 100%;
-        text-align: center;
-    }
-    .project-photo img{
-        display: inline-block;
-        max-width: 60%;
-        height: auto;
-        margin-left: 20%;
-    }
-    .project-img:first-child{
-        margin-top: 0px;
-    }
     .project-description{
         display: inline-block;
         width: 100%;
@@ -74,21 +58,6 @@
         margin-top: -40px;
     }
 
-    .project-photo{
-        text-align: center;
-    }
-    .project-photo img{
-        max-width: 50%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .project-photo img:last-child{
-        display: block;
-        width: 60%;
-        margin-left: 25%;
-    }
-
     .contact{
         padding: 0 50px;
     }
@@ -106,6 +75,16 @@
         max-width:150px;
         height: auto;
         left: 70vw;
+    }
+
+    .project-description--vertical {
+        display: block;
+        width: 100%;
+    }
+    
+    .project-photo {
+        display: block;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 580px) {
@@ -144,6 +123,7 @@
         margin-left: 0;
         margin-right: 0;
         margin-top: 30px;
+        padding: 0;
     }
 
     .about-me-column:nth-child(3){
@@ -194,10 +174,8 @@
         margin-bottom: -30px;
         padding: 20px 0px;
     }
-    .project-description p{
-
-        padding-right: 0;
-        padding-left: 30px;
+    .project-container p{
+        padding: 0 10px;
     }
 
     .projects .skillset-front{
